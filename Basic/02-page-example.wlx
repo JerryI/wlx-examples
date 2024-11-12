@@ -1,0 +1,12 @@
+TodayTime := Today // TextString;
+Heading[Text_String] := <h1><Text/></h1>;
+
+App[request_] := With[{},
+    <body>
+      <Heading>Hello World</Heading>    
+
+      Today is <i><TodayTime/></i>
+    </body>
+]
+
+App
